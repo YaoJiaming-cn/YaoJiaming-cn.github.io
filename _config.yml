@@ -2,14 +2,18 @@
 # 站点配置 —— 改完保存、推送到 GitHub 即生效
 # ============================================
 
-# 主题（不用动）
+# 主题（换主题就改这一行：作者名/仓库名）
 remote_theme: mmistakes/minimal-mistakes
+
+# 主题配色皮肤：default / air / contrast / dark / dirt / mint / neon / plum / sunrise
+minimal_mistakes_skin: "default"
 
 # 站点标题（显示在浏览器标签和页面顶部）
 title: y+m
 
-# 作者名（显示在页头和文章署名）
-author: 姚嘉明
+# 作者（minimal-mistakes 的格式）
+author:
+  name: "姚嘉明"
 
 # 一句话描述（显示在页面顶部和搜索引擎）
 description: 记录生活与学习
@@ -17,24 +21,27 @@ description: 记录生活与学习
 # 每页显示多少篇文章
 paginate: 10
 
-# GitHub Pages 需要的插件（不用动）
+# GitHub Pages 需要的插件（别删 jekyll-include-cache，minimal-mistakes 必需）
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-include-cache
 
-# 顶部导航菜单（左边显示的文字 → 页面文件名）
-# 想加新页面：先建一个 .md 文件，再在这里加一行
-navbar-links:
-  关于我: "aboutme"
-  项目: "projects"
-
-# ---------- 以下可选，用不上可以不管 ----------
+# ---------- 以下可选 ----------
 
 # 部署地址
 url: "https://yaojiaming-cn.github.io"
 
-# 社交主页（会显示在页面顶部导航）
-# github_username: YaoJiaming-cn
+# 导航：minimal-mistakes 会自动把「带 title 的页面」放进顶部菜单
+# （aboutme.md、projects.md 已自动出现，无需在这里配置）
 
 # 头像：把图片放到 assets/img/ 目录里，再取消注释
-# avatar: "/assets/img/avatar.png"
+# author:
+#   avatar: "/assets/img/avatar.png"
+
+# 页脚社交链接（取消注释即可显示 GitHub 图标）
+# footer:
+#   links:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/YaoJiaming-cn"
