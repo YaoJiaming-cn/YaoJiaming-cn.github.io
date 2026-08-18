@@ -22,6 +22,12 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
+# 顶部导航菜单（左边显示的文字 → 页面文件名）
+# 想加新页面：先建一个 .md 文件，再在这里加一行
+navbar-links:
+  关于我: "aboutme"
+  项目: "projects"
+
 # ---------- 以下可选，用不上可以不管 ----------
 
 # 部署地址
