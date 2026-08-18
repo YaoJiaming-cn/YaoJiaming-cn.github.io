@@ -6,10 +6,10 @@
 remote_theme: daattali/beautiful-jekyll
 
 # 站点标题（显示在浏览器标签和页面顶部）
-title: 我的博客
+title: y+m
 
 # 作者名（显示在页头和文章署名）
-author: 你的名字
+author: 姚嘉明
 
 # 一句话描述（显示在页面顶部和搜索引擎）
 description: 记录生活与学习
@@ -24,12 +24,11 @@ plugins:
 
 # ---------- 以下可选，用不上可以不管 ----------
 
-# 部署地址：建好仓库后，把下面这行取消注释并填上你的地址
-# 例如你的 GitHub 用户名是 zhangsan，仓库叫 zhangsan.github.io，就填：
-# url: "https://zhangsan.github.io"
+# 部署地址
+url: "https://yaojiaming-cn.github.io"
 
 # 社交主页（会显示在页面顶部导航）
-# github_username: 你的GitHub用户名
+# github_username: YaoJiaming-cn
 
 # 头像：把图片放到 assets/img/ 目录里，再取消注释
 # avatar: "/assets/img/avatar.png"
