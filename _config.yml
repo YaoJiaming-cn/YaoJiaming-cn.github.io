@@ -3,7 +3,7 @@
 # ============================================
 
 # 主题（不用动）
-remote_theme: daattali/beautiful-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 # 站点标题（显示在浏览器标签和页面顶部）
 title: y+m
